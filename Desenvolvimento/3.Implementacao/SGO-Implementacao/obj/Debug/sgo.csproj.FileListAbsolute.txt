@@ -1,0 +1,166 @@
+C:\Users\Felip\source\repos\sgo\bin\Debug\sgo.exe.config
+C:\Users\Felip\source\repos\sgo\bin\Debug\sgo.exe
+C:\Users\Felip\source\repos\sgo\bin\Debug\sgo.pdb
+C:\Users\Felip\source\repos\sgo\bin\Debug\Google.Protobuf.dll
+C:\Users\Felip\source\repos\sgo\bin\Debug\MySql.Data.dll
+C:\Users\Felip\source\repos\sgo\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\Felip\source\repos\sgo\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\Felip\source\repos\sgo\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\Felip\source\repos\sgo\bin\Debug\MySql.Web.dll
+C:\Users\Felip\source\repos\sgo\bin\Debug\MySql.Data.xml
+C:\Users\Felip\source\repos\sgo\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Felip\source\repos\sgo\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\Felip\source\repos\sgo\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\Felip\source\repos\sgo\bin\Debug\MySql.Web.xml
+C:\Users\Felip\source\repos\sgo\obj\Debug\sgo.csprojAssemblyReference.cache
+C:\Users\Felip\source\repos\sgo\obj\Debug\sgo.loginView.resources
+C:\Users\Felip\source\repos\sgo\obj\Debug\sgo.Properties.Resources.resources
+C:\Users\Felip\source\repos\sgo\obj\Debug\sgo.csproj.GenerateResource.cache
+C:\Users\Felip\source\repos\sgo\obj\Debug\sgo.csproj.CoreCompileInputs.cache
+C:\Users\Felip\source\repos\sgo\obj\Debug\sgo.csproj.CopyComplete
+C:\Users\Felip\source\repos\sgo\obj\Debug\sgo.exe
+C:\Users\Felip\source\repos\sgo\obj\Debug\sgo.pdb
+C:\Users\Felip\source\repos\sgo\obj\Debug\sgo.userInterface.menuInicialView.resources
+C:\Users\Felip\source\repos\sgo\bin\Debug\PdfSharp.Charting.dll
+C:\Users\Felip\source\repos\sgo\bin\Debug\PdfSharp.dll
+C:\Users\Felip\source\repos\sgo\bin\Debug\PdfSharp.xml
+C:\Users\Felip\source\repos\sgo\bin\Debug\PdfSharp.Charting.xml
+C:\Users\Felip\source\repos\sgo\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\Felip\source\repos\sgo\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\Felip\source\repos\sgo\obj\Debug\sgo.userInterface.cadastrarClienteView.resources
+F:\IFSP\PRJ\sgo\bin\Debug\sgo.exe.config
+F:\IFSP\PRJ\sgo\bin\Debug\sgo.exe
+F:\IFSP\PRJ\sgo\bin\Debug\sgo.pdb
+F:\IFSP\PRJ\sgo\bin\Debug\Google.Protobuf.dll
+F:\IFSP\PRJ\sgo\bin\Debug\MySql.Data.dll
+F:\IFSP\PRJ\sgo\bin\Debug\MySql.Data.EntityFramework.dll
+F:\IFSP\PRJ\sgo\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+F:\IFSP\PRJ\sgo\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+F:\IFSP\PRJ\sgo\bin\Debug\MySql.Web.dll
+F:\IFSP\PRJ\sgo\bin\Debug\PdfSharp.Charting.dll
+F:\IFSP\PRJ\sgo\bin\Debug\PdfSharp.dll
+F:\IFSP\PRJ\sgo\bin\Debug\MySql.Data.xml
+F:\IFSP\PRJ\sgo\bin\Debug\MySql.Data.EntityFramework.xml
+F:\IFSP\PRJ\sgo\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+F:\IFSP\PRJ\sgo\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+F:\IFSP\PRJ\sgo\bin\Debug\MySql.Web.xml
+F:\IFSP\PRJ\sgo\bin\Debug\PdfSharp.xml
+F:\IFSP\PRJ\sgo\bin\Debug\PdfSharp.Charting.xml
+F:\IFSP\PRJ\sgo\bin\Debug\de\PdfSharp.resources.dll
+F:\IFSP\PRJ\sgo\bin\Debug\de\PdfSharp.Charting.resources.dll
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.csprojAssemblyReference.cache
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.userInterface.cadastrarObraView.resources
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.userInterface.configurarEtapasView.resources
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.userInterface.emailView.resources
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.userInterface.etapaGastosView.resources
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.userInterface.etapaImagemView.resources
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.userInterface.etapaView.resources
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.userInterface.graficosView.resources
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.loginView.resources
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.Properties.Resources.resources
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.userInterface.manterClienteView.resources
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.userInterface.manterFuncionarioView.resources
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.userInterface.menuInicialView.resources
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.userInterface.menuObraView.resources
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.userInterface.relatorioGastosView.resources
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.userInterface.selecionarObraView.resources
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.csproj.GenerateResource.cache
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.csproj.CopyComplete
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.exe
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.pdb
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.userInterface.consultarClienteView.resources
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.userInterface.consultarFuncionarioView.resources
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.userInterface.orcamentoView.resources
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.userInterface.menuClienteView.resources
+F:\IFSP\PRJ\sgo\obj\Debug\sgo.userInterface.menuFuncionarioView.resources
+F:\IFSP\PRJ\sgo - Cópia\bin\Debug\sgo.exe.config
+F:\IFSP\PRJ\sgo - Cópia\bin\Debug\sgo.exe
+F:\IFSP\PRJ\sgo - Cópia\bin\Debug\sgo.pdb
+F:\IFSP\PRJ\sgo - Cópia\bin\Debug\Google.Protobuf.dll
+F:\IFSP\PRJ\sgo - Cópia\bin\Debug\MySql.Data.dll
+F:\IFSP\PRJ\sgo - Cópia\bin\Debug\MySql.Data.EntityFramework.dll
+F:\IFSP\PRJ\sgo - Cópia\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+F:\IFSP\PRJ\sgo - Cópia\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+F:\IFSP\PRJ\sgo - Cópia\bin\Debug\MySql.Web.dll
+F:\IFSP\PRJ\sgo - Cópia\bin\Debug\PdfSharp.Charting.dll
+F:\IFSP\PRJ\sgo - Cópia\bin\Debug\PdfSharp.dll
+F:\IFSP\PRJ\sgo - Cópia\bin\Debug\MySql.Data.xml
+F:\IFSP\PRJ\sgo - Cópia\bin\Debug\MySql.Data.EntityFramework.xml
+F:\IFSP\PRJ\sgo - Cópia\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+F:\IFSP\PRJ\sgo - Cópia\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+F:\IFSP\PRJ\sgo - Cópia\bin\Debug\MySql.Web.xml
+F:\IFSP\PRJ\sgo - Cópia\bin\Debug\PdfSharp.xml
+F:\IFSP\PRJ\sgo - Cópia\bin\Debug\PdfSharp.Charting.xml
+F:\IFSP\PRJ\sgo - Cópia\bin\Debug\de\PdfSharp.resources.dll
+F:\IFSP\PRJ\sgo - Cópia\bin\Debug\de\PdfSharp.Charting.resources.dll
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.csprojAssemblyReference.cache
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.userInterface.etapaAnotacao.resources
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.userInterface.manterClienteView.resources
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.userInterface.manterFuncionarioView.resources
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.userInterface.cadastrarObraView.resources
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.userInterface.menuClienteView.resources
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.userInterface.configurarEtapasView.resources
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.userInterface.emailView.resources
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.userInterface.etapaGastosView.resources
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.userInterface.etapaImagemView.resources
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.userInterface.etapaView.resources
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.userInterface.menuFuncionarioView.resources
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.userInterface.graficosView.resources
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.loginView.resources
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.Properties.Resources.resources
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.userInterface.consultarClienteView.resources
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.userInterface.consultarFuncionarioView.resources
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.userInterface.menuInicialView.resources
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.userInterface.menuObraView.resources
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.userInterface.relatorioGastosView.resources
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.userInterface.selecionarObraView.resources
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.csproj.GenerateResource.cache
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.csproj.CoreCompileInputs.cache
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.csproj.CopyComplete
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.exe
+F:\IFSP\PRJ\sgo - Cópia\obj\Debug\sgo.pdb
+C:\Users\Felip\OneDrive\Documentos\sgo\bin\Debug\sgo.exe.config
+C:\Users\Felip\OneDrive\Documentos\sgo\bin\Debug\sgo.exe
+C:\Users\Felip\OneDrive\Documentos\sgo\bin\Debug\sgo.pdb
+C:\Users\Felip\OneDrive\Documentos\sgo\bin\Debug\Google.Protobuf.dll
+C:\Users\Felip\OneDrive\Documentos\sgo\bin\Debug\MySql.Data.dll
+C:\Users\Felip\OneDrive\Documentos\sgo\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\Felip\OneDrive\Documentos\sgo\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\Felip\OneDrive\Documentos\sgo\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\Felip\OneDrive\Documentos\sgo\bin\Debug\MySql.Web.dll
+C:\Users\Felip\OneDrive\Documentos\sgo\bin\Debug\PdfSharp.Charting.dll
+C:\Users\Felip\OneDrive\Documentos\sgo\bin\Debug\PdfSharp.dll
+C:\Users\Felip\OneDrive\Documentos\sgo\bin\Debug\MySql.Data.xml
+C:\Users\Felip\OneDrive\Documentos\sgo\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Felip\OneDrive\Documentos\sgo\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\Felip\OneDrive\Documentos\sgo\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\Felip\OneDrive\Documentos\sgo\bin\Debug\MySql.Web.xml
+C:\Users\Felip\OneDrive\Documentos\sgo\bin\Debug\PdfSharp.xml
+C:\Users\Felip\OneDrive\Documentos\sgo\bin\Debug\PdfSharp.Charting.xml
+C:\Users\Felip\OneDrive\Documentos\sgo\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\Felip\OneDrive\Documentos\sgo\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.csprojAssemblyReference.cache
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.userInterface.etapaAnotacao.resources
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.userInterface.manterClienteView.resources
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.userInterface.manterFuncionarioView.resources
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.userInterface.cadastrarObraView.resources
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.userInterface.menuClienteView.resources
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.userInterface.configurarEtapasView.resources
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.userInterface.emailView.resources
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.userInterface.etapaGastosView.resources
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.userInterface.etapaImagemView.resources
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.userInterface.etapaView.resources
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.userInterface.menuFuncionarioView.resources
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.userInterface.graficosView.resources
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.loginView.resources
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.Properties.Resources.resources
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.userInterface.consultarClienteView.resources
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.userInterface.consultarFuncionarioView.resources
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.userInterface.menuInicialView.resources
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.userInterface.menuObraView.resources
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.userInterface.relatorioGastosView.resources
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.userInterface.selecionarObraView.resources
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.csproj.GenerateResource.cache
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.csproj.CopyComplete
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.exe
+C:\Users\Felip\OneDrive\Documentos\sgo\obj\Debug\sgo.pdb
