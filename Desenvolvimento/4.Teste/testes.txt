@@ -1,0 +1,95 @@
+UCS001: Efetuar Login
+	
+	Login 1: 
+		Login: Gestor 
+		Senha: 12
+	
+	Login 2:
+		Login: Gestor
+		Senha: 123
+	
+	Login 3:
+		Login: GestorLPS
+		Senha: 12
+		
+	Login 4:
+		Login: GestorLPS
+		Senha: 123
+
+UCS002: Manter Clientes
+
+	Cliente 1:
+		CPF: 374.618.285-10
+		Nome: Felipe Florentino
+		Email: felipe@gmail.com
+		Celular: (11) 94729-3330
+		CEP: 13327373
+		Rua: Rua Santa Clara
+		Número: 25
+		Bairro: Jardim Nova Era
+		Cidade: Salto
+		Estado: SP
+		
+	Cliente 2:
+		CPF: 721.094.336-87
+		Nome: José Carlos
+		Email: jose.carlos@gmail.com
+		Celular: (11) 97313-7571
+		CEP: 13327372
+		Rua: Rua Santa Mônica
+		Número: 50
+		Bairro: Jardim Nova Era
+		Cidade: Salto
+		Estado: SP
+		
+	Cliente 3:
+		CPF: 121.289.234-01
+		Nome: José Carlos
+		Email: 
+		Celular: (11) 93298-4102
+		CEP: 13327372
+		Rua: Rua Santa Mônica
+		Número: 50
+		Bairro: Jardim Nova Era
+		Cidade: Salto
+		Estado: SP
+		
+	Alteração 1:
+		CPF: 374.618.285-10
+		Nome: Felipe Florentino
+		Email: felipe@gmail.com.br
+		Celular: (11) 94729-4456
+		CEP: 13327373
+		Rua: Rua Santa Clara
+		Número: 25
+		Bairro: Jardim Nova Era
+		Cidade: Salto
+		Estado: SP
+		
+	Alteração 2:
+		CPF: 721.094.336-87
+		Nome: José Carlos
+		Email: jose.carlos@gmail.com
+		Celular: (11) 97313-7571
+		CEP: 
+		Rua: Rua Santa Mônica
+		Número: 50
+		Bairro: Jardim Nova Era
+		Cidade: Salto
+		Estado: SP
+		
+UCS003: Manter Obras
+	
+	Obra 1:
+		Cliente: Felipe Florentino
+		CEP: 13320271
+		Rua: Rua Rio Branco
+		Número: 1780
+		Bairro: Vila Teixeira
+		Cidade: Salto
+		Estado: SP
+
+UCS004: Manter Funcionários
+
+
+UCS005: Gerenciar Etapas

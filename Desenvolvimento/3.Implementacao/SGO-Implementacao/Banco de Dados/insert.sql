@@ -1,12 +1,3 @@
-INSERT INTO endereco VALUES (default, '13327-373', 'Rua Santa Clara', 186, 'Jardim Nova Era', 'Salto', 'SP');
-INSERT INTO endereco VALUES (default, '13320-271', 'Rua Barão do Rio Branco', 1780, 'Vila Teixeira', 'Salto', 'SP');
-
-INSERT INTO cliente VALUES('Felipe Florentino', '473.816.258-65', 'felipe@gmail.com', '(11) 98272-0128', 1);
-
-INSERT INTO obra VALUES (default, '2019-01-01', null, 'Não Iniciada', 2, 'Felipe Florentino');
-
-INSERT INTO funcionario VALUES ('037.184.257-90', 'José', 'jose@gmail.com', '(11) 98262-1433', 2500.00, 'PEDREIRO', 1, 1);
-
 INSERT INTO etapa VALUES (default, 'Fundação', 0, 1500.00, '2019-01-01', '2019-01-31', NULL, NULL, 1);
 INSERT INTO etapa VALUES (default, 'Estrutura', 0, 1500.00,'2019-02-01', '2019-02-28', NULL, NULL, 1);
 INSERT INTO etapa VALUES (default, 'Paredes', 0, 1500.00,'2019-03-01', '2019-03-31', NULL, NULL, 1);
