@@ -110,8 +110,6 @@
             this.dgvObras.MultiSelect = false;
             this.dgvObras.Name = "dgvObras";
             this.dgvObras.ReadOnly = true;
-            this.dgvObras.RowHeadersVisible = false;
-            this.dgvObras.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dgvObras.Size = new System.Drawing.Size(772, 447);
             this.dgvObras.TabIndex = 8;
             this.dgvObras.DoubleClick += new System.EventHandler(this.DgvObras_DoubleClick);

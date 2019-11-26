@@ -150,7 +150,7 @@
             this.btnLimpar.Location = new System.Drawing.Point(444, 100);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(183, 47);
-            this.btnLimpar.TabIndex = 12;
+            this.btnLimpar.TabIndex = 15;
             this.btnLimpar.Text = "Limpar Campos";
             this.btnLimpar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLimpar.UseVisualStyleBackColor = false;
@@ -274,7 +274,7 @@
             this.btnConsultar.Location = new System.Drawing.Point(456, 52);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(171, 47);
-            this.btnConsultar.TabIndex = 14;
+            this.btnConsultar.TabIndex = 6;
             this.btnConsultar.Text = "Consultar CEP";
             this.btnConsultar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnConsultar.UseVisualStyleBackColor = false;
@@ -340,28 +340,28 @@
             this.txtEstado.Location = new System.Drawing.Point(87, 221);
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(142, 26);
-            this.txtEstado.TabIndex = 10;
+            this.txtEstado.TabIndex = 11;
             // 
             // txtCidade
             // 
             this.txtCidade.Location = new System.Drawing.Point(87, 189);
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(203, 26);
-            this.txtCidade.TabIndex = 9;
+            this.txtCidade.TabIndex = 10;
             // 
             // txtBairro
             // 
             this.txtBairro.Location = new System.Drawing.Point(87, 157);
             this.txtBairro.Name = "txtBairro";
             this.txtBairro.Size = new System.Drawing.Size(203, 26);
-            this.txtBairro.TabIndex = 8;
+            this.txtBairro.TabIndex = 9;
             // 
             // txtNumero
             // 
             this.txtNumero.Location = new System.Drawing.Point(87, 126);
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(142, 26);
-            this.txtNumero.TabIndex = 7;
+            this.txtNumero.TabIndex = 8;
             // 
             // txtCEP
             // 
@@ -375,7 +375,7 @@
             this.txtRua.Location = new System.Drawing.Point(87, 93);
             this.txtRua.Name = "txtRua";
             this.txtRua.Size = new System.Drawing.Size(203, 26);
-            this.txtRua.TabIndex = 6;
+            this.txtRua.TabIndex = 7;
             // 
             // lblCEP
             // 
@@ -399,7 +399,7 @@
             this.btnCadastrar.Location = new System.Drawing.Point(0, 507);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(117, 49);
-            this.btnCadastrar.TabIndex = 11;
+            this.btnCadastrar.TabIndex = 12;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = false;
             this.btnCadastrar.Click += new System.EventHandler(this.BtnCadastrar_Click);
@@ -417,7 +417,7 @@
             this.btnAlterar.Location = new System.Drawing.Point(532, 507);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(117, 49);
-            this.btnAlterar.TabIndex = 12;
+            this.btnAlterar.TabIndex = 13;
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = false;
             this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);

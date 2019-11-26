@@ -88,12 +88,14 @@ namespace sgo.userInterface
 
                     if (mensagem)
                     {
-                        MessageBox.Show("Funcionário Cadastrado com Sucesso");
+                        MessageBox.Show("Funcionário Cadastrado com Sucesso", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Information,
+                        MessageBoxDefaultButton.Button1);
                         limparCampos();
                     }
                     else
                     {
-                        MessageBox.Show("Funcionário Não Cadastrado");
+                        MessageBox.Show("Funcionário Não Cadastrado", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning,
+                        MessageBoxDefaultButton.Button1);
                     }
                 }
                 else

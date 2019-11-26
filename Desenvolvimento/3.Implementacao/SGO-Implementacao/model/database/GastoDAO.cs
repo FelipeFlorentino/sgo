@@ -82,6 +82,30 @@ namespace sgo.model.database
                 throw new Exception("Erro na Remoção do Gasto: " + ex.Message);
             }
         }
+        // Filtrar os gastos da obra de acordo com os filtros escolhidos pelo usuário
+        public DataTable filtrar(Gasto objGasto, DateTime dataInicio, DateTime dataFim)
+        {
+            Banco db;
+            try
+            {
+                db = new Banco();
+                db.comando.CommandText = "SELECT g.descricao, g.tipo, g.valor, g.dataGasto " +
+                                         "FROM gasto g INNER JOIN obra o ON g.obra_codigo = o.codigo " +
+                                         "WHERE g.dataGasto BETWEEN @di AND @df AND g.obra_codigo = @oc";
+                db.comando.Parameters.Add("@di", MySqlDbType.DateTime).Value = dataInicio;
+                db.comando.Parameters.Add("@df", MySqlDbType.DateTime).Value = dataFim;
+                db.comando.Parameters.Add("@oc", MySqlDbType.Int32).Value = objGasto.getObraCodigo();
+                db.comando.Prepare();
+                db.dreader = db.comando.ExecuteReader();
+                db.tabela = new DataTable();
+                db.tabela.Load(db.dreader);
+                return (db.tabela);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Erro ao Consultar os Gastos na Base de Dados: " + ex.Message);
+            }
+        }
         // Listar todos os gastos de uma determinada obra
         public DataTable gastosObra(int codigoObra)
         {
@@ -116,30 +140,6 @@ namespace sgo.model.database
                                          "WHERE g.obra_codigo = @co AND g.etapa_codigo = @ce";
                 db.comando.Parameters.Add("@co", MySqlDbType.Int32).Value = codigoObra;
                 db.comando.Parameters.Add("@ce", MySqlDbType.Int32).Value = codigoEtapa;
-                db.comando.Prepare();
-                db.dreader = db.comando.ExecuteReader();
-                db.tabela = new DataTable();
-                db.tabela.Load(db.dreader);
-                return (db.tabela);
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Erro ao Consultar os Gastos na Base de Dados: " + ex.Message);
-            }
-        }
-        // Filtrar os gastos da obra de acordo com os filtros escolhidos pelo usuário
-        public DataTable filtrar(Gasto objGasto, DateTime dataInicio, DateTime dataFim)
-        {
-            Banco db;
-            try
-            {
-                db = new Banco();
-                db.comando.CommandText = "SELECT g.codigo, g.descricao, g.tipo, g.valor, g.dataGasto, g.obra_codigo, g.etapa_codigo " +
-                                         "FROM gasto g INNER JOIN obra o ON g.obra_codigo = o.codigo " +
-                                         "WHERE g.dataGasto BETWEEN @di AND @df AND g.obra_codigo = @oc";
-                db.comando.Parameters.Add("@di", MySqlDbType.DateTime).Value = dataInicio;
-                db.comando.Parameters.Add("@df", MySqlDbType.DateTime).Value = dataFim;
-                db.comando.Parameters.Add("@oc", MySqlDbType.Int32).Value = objGasto.getObraCodigo();
                 db.comando.Prepare();
                 db.dreader = db.comando.ExecuteReader();
                 db.tabela = new DataTable();
@@ -221,8 +221,13 @@ namespace sgo.model.database
             try
             {
                 db = new Banco();
-                db.comando.CommandText = "SELECT SUM(valor), SUM(totalGastosPrevisto) " +
-                                         "FROM gasto g INNER JOIN etapa e ON e.codigo = g.etapa_codigo INNER JOIN obra o ON o.codigo = g.obra_codigo";
+                db.comando.CommandText = "SELECT SUM(Previsto.total) as 'Previsto' " +
+                                         "FROM (SELECT e.totalGastosPrevisto as total FROM gasto g INNER JOIN etapa e ON e.codigo = g.etapa_codigo " +
+                                         "INNER JOIN obra o ON o.codigo = g.obra_codigo GROUP BY e.codigo) as Previsto " +
+                                         "UNION " +
+                                         "SELECT SUM(g.valor) as 'Realizado' " +
+                                         "FROM gasto g INNER JOIN etapa e ON g.etapa_codigo = e.codigo " +
+                                         "INNER JOIN obra o ON o.codigo = g.obra_codigo";
                 db.comando.Prepare();
                 db.dreader = db.comando.ExecuteReader();
                 db.tabela = new DataTable();

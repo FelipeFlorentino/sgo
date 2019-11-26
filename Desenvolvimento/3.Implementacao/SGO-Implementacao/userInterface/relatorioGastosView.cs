@@ -26,7 +26,6 @@ namespace sgo.userInterface
         {
             dtpInicio.Value = new DateTime(2019, 01, 01);
             dtpFim.Value = new DateTime(2019, 12, 31);
-            preencherCombo();
             GastoCtrl objGastoCtrl;
             try
             {
@@ -51,11 +50,15 @@ namespace sgo.userInterface
             {
                 objGasto = new Gasto();
                 objGastoCtrl = new GastoCtrl();
-
-                objGasto.setTipo(this.cmbTipo.Text);
+                
                 objGasto.setObraCodigo(this.obraCodigo.ToString());
 
                 this.dgvRelatorio.DataSource = objGastoCtrl.filtrar(objGasto, dtpInicio.Value, dtpFim.Value);
+                this.dgvRelatorio.Columns[0].HeaderText = "Descrição";
+                this.dgvRelatorio.Columns[1].HeaderText = "Tipo";
+                this.dgvRelatorio.Columns[2].HeaderText = "Valor";
+                this.dgvRelatorio.Columns[3].HeaderText = "Data";
+                this.dgvRelatorio.DefaultCellStyle.Font = new Font("Trebuchet MS", 12);
             }
             catch (Exception ex)
             {
@@ -111,12 +114,6 @@ namespace sgo.userInterface
                 doc.Save("pdf.pdf");
                 System.Diagnostics.Process.Start("pdf.pdf");
             }
-        }
-        private void preencherCombo()
-        {
-            this.cmbTipo.Items.Add("Ferramenta");
-            this.cmbTipo.Items.Add("Material");
-            this.cmbTipo.Items.Add("Mão de Obra");
         }
         private void BtnFechar_Click(object sender, EventArgs e)
         {

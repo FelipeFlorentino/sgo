@@ -40,8 +40,6 @@
             this.btnGerar = new System.Windows.Forms.Button();
             this.dgvRelatorio = new System.Windows.Forms.DataGridView();
             this.grbFiltros = new System.Windows.Forms.GroupBox();
-            this.grbTipo = new System.Windows.Forms.GroupBox();
-            this.cmbTipo = new System.Windows.Forms.ComboBox();
             this.grbData = new System.Windows.Forms.GroupBox();
             this.dtpFim = new System.Windows.Forms.DateTimePicker();
             this.dtpInicio = new System.Windows.Forms.DateTimePicker();
@@ -51,7 +49,6 @@
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRelatorio)).BeginInit();
             this.grbFiltros.SuspendLayout();
-            this.grbTipo.SuspendLayout();
             this.grbData.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -210,8 +207,6 @@
             this.dgvRelatorio.MultiSelect = false;
             this.dgvRelatorio.Name = "dgvRelatorio";
             this.dgvRelatorio.ReadOnly = true;
-            this.dgvRelatorio.RowHeadersVisible = false;
-            this.dgvRelatorio.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dgvRelatorio.Size = new System.Drawing.Size(709, 397);
             this.dgvRelatorio.TabIndex = 10;
             // 
@@ -219,7 +214,6 @@
             // 
             this.grbFiltros.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.grbFiltros.Controls.Add(this.grbTipo);
             this.grbFiltros.Controls.Add(this.grbData);
             this.grbFiltros.Location = new System.Drawing.Point(189, 57);
             this.grbFiltros.Name = "grbFiltros";
@@ -227,24 +221,6 @@
             this.grbFiltros.TabIndex = 11;
             this.grbFiltros.TabStop = false;
             this.grbFiltros.Text = "Filtros";
-            // 
-            // grbTipo
-            // 
-            this.grbTipo.Controls.Add(this.cmbTipo);
-            this.grbTipo.Location = new System.Drawing.Point(286, 37);
-            this.grbTipo.Name = "grbTipo";
-            this.grbTipo.Size = new System.Drawing.Size(230, 92);
-            this.grbTipo.TabIndex = 1;
-            this.grbTipo.TabStop = false;
-            this.grbTipo.Text = "Tipo";
-            // 
-            // cmbTipo
-            // 
-            this.cmbTipo.FormattingEnabled = true;
-            this.cmbTipo.Location = new System.Drawing.Point(6, 63);
-            this.cmbTipo.Name = "cmbTipo";
-            this.cmbTipo.Size = new System.Drawing.Size(187, 21);
-            this.cmbTipo.TabIndex = 0;
             // 
             // grbData
             // 
@@ -311,7 +287,6 @@
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvRelatorio)).EndInit();
             this.grbFiltros.ResumeLayout(false);
-            this.grbTipo.ResumeLayout(false);
             this.grbData.ResumeLayout(false);
             this.grbData.PerformLayout();
             this.ResumeLayout(false);
@@ -331,8 +306,6 @@
         private System.Windows.Forms.Button btnGerar;
         private System.Windows.Forms.DataGridView dgvRelatorio;
         private System.Windows.Forms.GroupBox grbFiltros;
-        private System.Windows.Forms.GroupBox grbTipo;
-        private System.Windows.Forms.ComboBox cmbTipo;
         private System.Windows.Forms.GroupBox grbData;
         private System.Windows.Forms.DateTimePicker dtpFim;
         private System.Windows.Forms.DateTimePicker dtpInicio;

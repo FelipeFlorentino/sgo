@@ -166,48 +166,48 @@
             // lblMoeda
             // 
             this.lblMoeda.AutoSize = true;
-            this.lblMoeda.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMoeda.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMoeda.Location = new System.Drawing.Point(302, 496);
             this.lblMoeda.Name = "lblMoeda";
-            this.lblMoeda.Size = new System.Drawing.Size(28, 18);
+            this.lblMoeda.Size = new System.Drawing.Size(33, 22);
             this.lblMoeda.TabIndex = 37;
             this.lblMoeda.Text = "R$:";
             // 
             // cmbTipo
             // 
-            this.cmbTipo.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbTipo.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbTipo.FormattingEnabled = true;
             this.cmbTipo.Location = new System.Drawing.Point(336, 444);
             this.cmbTipo.Name = "cmbTipo";
             this.cmbTipo.Size = new System.Drawing.Size(194, 30);
-            this.cmbTipo.TabIndex = 36;
+            this.cmbTipo.TabIndex = 2;
             // 
             // txtData
             // 
-            this.txtData.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtData.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtData.Location = new System.Drawing.Point(336, 530);
             this.txtData.Mask = "00/00/0000";
             this.txtData.Name = "txtData";
             this.txtData.Size = new System.Drawing.Size(141, 26);
-            this.txtData.TabIndex = 35;
+            this.txtData.TabIndex = 4;
             this.txtData.ValidatingType = typeof(System.DateTime);
             // 
             // txtValor
             // 
-            this.txtValor.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtValor.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtValor.Location = new System.Drawing.Point(336, 490);
             this.txtValor.Name = "txtValor";
             this.txtValor.Size = new System.Drawing.Size(141, 26);
-            this.txtValor.TabIndex = 34;
+            this.txtValor.TabIndex = 3;
             // 
             // txtDescricao
             // 
-            this.txtDescricao.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDescricao.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDescricao.Location = new System.Drawing.Point(336, 379);
             this.txtDescricao.Multiline = true;
             this.txtDescricao.Name = "txtDescricao";
             this.txtDescricao.Size = new System.Drawing.Size(220, 48);
-            this.txtDescricao.TabIndex = 33;
+            this.txtDescricao.TabIndex = 1;
             // 
             // dgvGastos
             // 
@@ -220,48 +220,46 @@
             this.dgvGastos.Location = new System.Drawing.Point(227, 51);
             this.dgvGastos.MultiSelect = false;
             this.dgvGastos.Name = "dgvGastos";
-            this.dgvGastos.RowHeadersVisible = false;
-            this.dgvGastos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dgvGastos.Size = new System.Drawing.Size(1001, 292);
             this.dgvGastos.TabIndex = 32;
             // 
             // lblData
             // 
             this.lblData.AutoSize = true;
-            this.lblData.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblData.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblData.Location = new System.Drawing.Point(239, 533);
             this.lblData.Name = "lblData";
-            this.lblData.Size = new System.Drawing.Size(50, 22);
+            this.lblData.Size = new System.Drawing.Size(48, 22);
             this.lblData.TabIndex = 31;
             this.lblData.Text = "Data:";
             // 
             // lblValor
             // 
             this.lblValor.AutoSize = true;
-            this.lblValor.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblValor.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblValor.Location = new System.Drawing.Point(239, 494);
             this.lblValor.Name = "lblValor";
-            this.lblValor.Size = new System.Drawing.Size(55, 22);
+            this.lblValor.Size = new System.Drawing.Size(51, 22);
             this.lblValor.TabIndex = 30;
             this.lblValor.Text = "Valor:";
             // 
             // lblTipo
             // 
             this.lblTipo.AutoSize = true;
-            this.lblTipo.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTipo.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTipo.Location = new System.Drawing.Point(239, 447);
             this.lblTipo.Name = "lblTipo";
-            this.lblTipo.Size = new System.Drawing.Size(49, 22);
+            this.lblTipo.Size = new System.Drawing.Size(47, 22);
             this.lblTipo.TabIndex = 29;
             this.lblTipo.Text = "Tipo:";
             // 
             // lblDescricao
             // 
             this.lblDescricao.AutoSize = true;
-            this.lblDescricao.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescricao.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDescricao.Location = new System.Drawing.Point(239, 379);
             this.lblDescricao.Name = "lblDescricao";
-            this.lblDescricao.Size = new System.Drawing.Size(91, 22);
+            this.lblDescricao.Size = new System.Drawing.Size(85, 22);
             this.lblDescricao.TabIndex = 28;
             this.lblDescricao.Text = "Descrição:";
             // 

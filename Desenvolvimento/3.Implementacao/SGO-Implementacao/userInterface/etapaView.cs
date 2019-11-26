@@ -144,9 +144,9 @@ namespace sgo.userInterface
                 this.dgvRealizado.DataSource = objEtapaCtrl.realizado(this.obraCodigo);
                 this.dgvRealizado.Columns[0].Visible = false;
                 this.dgvRealizado.Columns[1].HeaderText = "Nome";
-                this.dgvRealizado.Columns[2].HeaderText = "Percentual de Conclusão";
-                this.dgvRealizado.Columns[3].HeaderText = "Data Início";
-                this.dgvRealizado.Columns[4].HeaderText = "Data Fim";
+                this.dgvRealizado.Columns[2].HeaderText = "Data Início";
+                this.dgvRealizado.Columns[3].HeaderText = "Data Fim";
+                this.dgvRealizado.Columns[4].HeaderText = "Percentual de Conclusão";
             }
             catch (Exception ex)
             {

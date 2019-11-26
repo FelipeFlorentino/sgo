@@ -24,20 +24,21 @@ namespace sgo.userInterface
             try
             {
                 objClienteCtrl = new ClienteCtrl();
-                this.dgvCliente.DataSource = objClienteCtrl.consultar(""); 
+                this.dgvCliente.DataSource = objClienteCtrl.consultar("");
+                this.dgvCliente.Columns[0].Width = 80;
                 this.dgvCliente.Columns[0].HeaderText = "CPF";
                 this.dgvCliente.Columns[1].Width = 100;
                 this.dgvCliente.Columns[1].HeaderText = "Nome";
-                this.dgvCliente.Columns[2].Width = 150;
+                this.dgvCliente.Columns[2].Width = 125;
                 this.dgvCliente.Columns[2].HeaderText = "Email";
-                this.dgvCliente.Columns[3].Width = 100;
+                this.dgvCliente.Columns[3].Width = 80;
                 this.dgvCliente.Columns[3].HeaderText = "Telefone";
                 this.dgvCliente.Columns[4].Visible = false;
-                this.dgvCliente.Columns[5].Width = 75;
+                this.dgvCliente.Columns[5].Width = 50;
                 this.dgvCliente.Columns[5].HeaderText = "CEP";
                 this.dgvCliente.Columns[6].Width = 100;
                 this.dgvCliente.Columns[6].HeaderText = "Rua";
-                this.dgvCliente.Columns[7].Width = 50;
+                this.dgvCliente.Columns[7].Width = 70;
                 this.dgvCliente.Columns[7].HeaderText = "Número";
                 this.dgvCliente.Columns[8].Width = 100;
                 this.dgvCliente.Columns[8].HeaderText = "Bairro";

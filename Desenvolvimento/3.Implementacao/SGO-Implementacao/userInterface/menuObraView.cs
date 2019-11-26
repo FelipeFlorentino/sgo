@@ -26,18 +26,21 @@ namespace sgo.userInterface
         {
             this.Close();
             nf = new Thread(menuEtapas);
+            nf.SetApartmentState(ApartmentState.STA);
             nf.Start();
         }
         private void BtnFuncionarios_Click(object sender, EventArgs e)
         {
             this.Close();
             nf = new Thread(menuFuncionarios);
+            nf.SetApartmentState(ApartmentState.STA);
             nf.Start();
         }
         private void BtnGraficos_Click(object sender, EventArgs e)
         {
             this.Close();
             nf = new Thread(menuGraficos);
+            nf.SetApartmentState(ApartmentState.STA);
             nf.Start();
         }
         private void BtnIniciar_Click(object sender, EventArgs e)
@@ -161,6 +164,7 @@ namespace sgo.userInterface
         {
             this.Close();
             nf = new Thread(menuRelatorios);
+            nf.SetApartmentState(ApartmentState.STA);
             nf.Start();
         }
         private void BtnMinimizar_Click(object sender, EventArgs e)

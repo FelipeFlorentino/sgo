@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(etapaView));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelCabecalho = new System.Windows.Forms.Panel();
             this.btnMinimizar = new System.Windows.Forms.Button();
             this.lblTitulo = new System.Windows.Forms.Label();
@@ -42,12 +42,12 @@
             this.dgvRealizado = new System.Windows.Forms.DataGridView();
             this.dgvPrevisto = new System.Windows.Forms.DataGridView();
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.btnAnotacoes = new System.Windows.Forms.Button();
             this.btnGerenciar = new System.Windows.Forms.Button();
             this.btnFotos = new System.Windows.Forms.Button();
             this.btnGastos = new System.Windows.Forms.Button();
             this.btnFinalizar = new System.Windows.Forms.Button();
             this.btnAtualizar = new System.Windows.Forms.Button();
-            this.btnAnotacoes = new System.Windows.Forms.Button();
             this.panelCabecalho.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRealizado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPrevisto)).BeginInit();
@@ -177,19 +177,17 @@
             this.dgvRealizado.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvRealizado.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dgvRealizado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvRealizado.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvRealizado.DefaultCellStyle = dataGridViewCellStyle1;
             this.dgvRealizado.Location = new System.Drawing.Point(236, 71);
             this.dgvRealizado.MultiSelect = false;
             this.dgvRealizado.Name = "dgvRealizado";
-            this.dgvRealizado.RowHeadersVisible = false;
-            this.dgvRealizado.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dgvRealizado.Size = new System.Drawing.Size(1079, 351);
             this.dgvRealizado.TabIndex = 30;
             // 
@@ -202,20 +200,18 @@
             this.dgvPrevisto.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvPrevisto.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvPrevisto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle6.NullValue = null;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvPrevisto.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.NullValue = null;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvPrevisto.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvPrevisto.Location = new System.Drawing.Point(236, 445);
             this.dgvPrevisto.Name = "dgvPrevisto";
             this.dgvPrevisto.ReadOnly = true;
-            this.dgvPrevisto.RowHeadersVisible = false;
-            this.dgvPrevisto.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dgvPrevisto.Size = new System.Drawing.Size(1079, 346);
             this.dgvPrevisto.TabIndex = 29;
             // 
@@ -234,6 +230,26 @@
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(230, 739);
             this.panelMenu.TabIndex = 33;
+            // 
+            // btnAnotacoes
+            // 
+            this.btnAnotacoes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(59)))));
+            this.btnAnotacoes.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnAnotacoes.FlatAppearance.BorderSize = 0;
+            this.btnAnotacoes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btnAnotacoes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gold;
+            this.btnAnotacoes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAnotacoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAnotacoes.ForeColor = System.Drawing.Color.White;
+            this.btnAnotacoes.Image = ((System.Drawing.Image)(resources.GetObject("btnAnotacoes.Image")));
+            this.btnAnotacoes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAnotacoes.Location = new System.Drawing.Point(0, 42);
+            this.btnAnotacoes.Name = "btnAnotacoes";
+            this.btnAnotacoes.Size = new System.Drawing.Size(230, 47);
+            this.btnAnotacoes.TabIndex = 8;
+            this.btnAnotacoes.Text = "Anotações";
+            this.btnAnotacoes.UseVisualStyleBackColor = false;
+            this.btnAnotacoes.Click += new System.EventHandler(this.btnAnotacoes_Click);
             // 
             // btnGerenciar
             // 
@@ -334,26 +350,6 @@
             this.btnAtualizar.Text = "Atualizar";
             this.btnAtualizar.UseVisualStyleBackColor = false;
             this.btnAtualizar.Click += new System.EventHandler(this.BtnAtualizar_Click);
-            // 
-            // btnAnotacoes
-            // 
-            this.btnAnotacoes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(59)))));
-            this.btnAnotacoes.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnAnotacoes.FlatAppearance.BorderSize = 0;
-            this.btnAnotacoes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btnAnotacoes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gold;
-            this.btnAnotacoes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAnotacoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnotacoes.ForeColor = System.Drawing.Color.White;
-            this.btnAnotacoes.Image = ((System.Drawing.Image)(resources.GetObject("btnAnotacoes.Image")));
-            this.btnAnotacoes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAnotacoes.Location = new System.Drawing.Point(0, 42);
-            this.btnAnotacoes.Name = "btnAnotacoes";
-            this.btnAnotacoes.Size = new System.Drawing.Size(230, 47);
-            this.btnAnotacoes.TabIndex = 8;
-            this.btnAnotacoes.Text = "Anotações";
-            this.btnAnotacoes.UseVisualStyleBackColor = false;
-            this.btnAnotacoes.Click += new System.EventHandler(this.btnAnotacoes_Click);
             // 
             // etapaView
             // 

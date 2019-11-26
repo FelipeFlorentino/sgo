@@ -167,8 +167,6 @@
             this.dgvCliente.Location = new System.Drawing.Point(0, 89);
             this.dgvCliente.MultiSelect = false;
             this.dgvCliente.Name = "dgvCliente";
-            this.dgvCliente.RowHeadersVisible = false;
-            this.dgvCliente.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvCliente.Size = new System.Drawing.Size(800, 361);
             this.dgvCliente.TabIndex = 11;
             this.dgvCliente.DoubleClick += new System.EventHandler(this.dgvCliente_DoubleClick);

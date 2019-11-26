@@ -29,14 +29,14 @@ namespace sgo.userInterface
         }
         private void personalizarDGV()
         {
-            this.dgvObras.Columns[0].Width = 50;
-            this.dgvObras.Columns[0].HeaderText = "Código";
-            this.dgvObras.Columns[1].Width = 100;
+            this.dgvObras.Columns[0].Visible = false;
+            this.dgvObras.Columns[1].Width = 225;
             this.dgvObras.Columns[1].HeaderText = "Status";
-            this.dgvObras.Columns[2].Width = 100;
+            this.dgvObras.Columns[2].Width = 150;
             this.dgvObras.Columns[2].HeaderText = "Data Início";
-            this.dgvObras.Columns[3].Width = 100;
+            this.dgvObras.Columns[3].Width = 150;
             this.dgvObras.Columns[3].HeaderText = "Data Fim";
+            this.dgvObras.Columns[4].Width = 250;
             this.dgvObras.Columns[4].HeaderText = "Cliente";
             this.dgvObras.Columns[5].HeaderText = "Endereço da Obra";
             this.dgvObras.DefaultCellStyle.Font = new Font("Trebuchet MS", 12);
@@ -65,6 +65,7 @@ namespace sgo.userInterface
         {
             this.Close();
             this.nf = new Thread(menuInicial);
+            nf.SetApartmentState(ApartmentState.STA);
             this.nf.Start();
         }
         private void menuInicial()

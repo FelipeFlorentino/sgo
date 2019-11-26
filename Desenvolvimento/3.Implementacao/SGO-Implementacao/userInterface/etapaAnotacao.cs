@@ -38,6 +38,8 @@ namespace sgo.userInterface
         }
         private void salvarToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            saveFD.Filter = "txt files(*.txt) | *.txt | All files(*.*) | *.* ";
+            saveFD.Title = "Arquivo de Texto";
             this.saveFD.ShowDialog();
             if (this.saveFD.FileName.Length > 0)
             {

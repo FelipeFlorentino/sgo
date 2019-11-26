@@ -147,7 +147,7 @@ namespace sgo.model.database
             try
             {
                 db = new Banco();
-                db.comando.CommandText = "SELECT e.codigo, e.nome, e.percentualConclusao, e.dataInicioReal, e.dataFimReal FROM etapa e " +
+                db.comando.CommandText = "SELECT e.codigo, e.nome, e.dataInicioReal, e.dataFimReal, e.percentualConclusao FROM etapa e " +
                     "INNER JOIN obra o ON e.obra_codigo = @c";
                 db.comando.Parameters.Add("@c", MySqlDbType.Int32).Value = codigo;
                 db.comando.Prepare();

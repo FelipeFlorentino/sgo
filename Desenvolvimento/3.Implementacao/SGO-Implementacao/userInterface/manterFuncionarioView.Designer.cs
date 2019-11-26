@@ -153,7 +153,7 @@
             this.cmbFuncao.Location = new System.Drawing.Point(104, 186);
             this.cmbFuncao.Name = "cmbFuncao";
             this.cmbFuncao.Size = new System.Drawing.Size(203, 30);
-            this.cmbFuncao.TabIndex = 17;
+            this.cmbFuncao.TabIndex = 6;
             // 
             // lblFuncao
             // 
@@ -169,7 +169,7 @@
             this.txtSalario.Location = new System.Drawing.Point(104, 154);
             this.txtSalario.Name = "txtSalario";
             this.txtSalario.Size = new System.Drawing.Size(203, 26);
-            this.txtSalario.TabIndex = 15;
+            this.txtSalario.TabIndex = 5;
             // 
             // lblSalario
             // 
@@ -195,7 +195,7 @@
             this.btnLimpar.Location = new System.Drawing.Point(327, 169);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(183, 47);
-            this.btnLimpar.TabIndex = 13;
+            this.btnLimpar.TabIndex = 17;
             this.btnLimpar.Text = "Limpar Campos";
             this.btnLimpar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLimpar.UseVisualStyleBackColor = false;
@@ -219,7 +219,7 @@
             // txtCPF
             // 
             this.txtCPF.Location = new System.Drawing.Point(104, 26);
-            this.txtCPF.Mask = "000.000.000-00";
+            this.txtCPF.Mask = "000,000,000-00";
             this.txtCPF.Name = "txtCPF";
             this.txtCPF.Size = new System.Drawing.Size(203, 26);
             this.txtCPF.TabIndex = 1;
@@ -325,7 +325,7 @@
             this.btnConsultar.Location = new System.Drawing.Point(327, 68);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(183, 47);
-            this.btnConsultar.TabIndex = 15;
+            this.btnConsultar.TabIndex = 8;
             this.btnConsultar.Text = "Consultar CEP";
             this.btnConsultar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnConsultar.UseVisualStyleBackColor = false;
@@ -391,42 +391,42 @@
             this.txtEstado.Location = new System.Drawing.Point(97, 228);
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(203, 26);
-            this.txtEstado.TabIndex = 10;
+            this.txtEstado.TabIndex = 13;
             // 
             // txtCidade
             // 
             this.txtCidade.Location = new System.Drawing.Point(97, 196);
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(203, 26);
-            this.txtCidade.TabIndex = 9;
+            this.txtCidade.TabIndex = 12;
             // 
             // txtBairro
             // 
             this.txtBairro.Location = new System.Drawing.Point(97, 164);
             this.txtBairro.Name = "txtBairro";
             this.txtBairro.Size = new System.Drawing.Size(203, 26);
-            this.txtBairro.TabIndex = 8;
+            this.txtBairro.TabIndex = 11;
             // 
             // txtNumero
             // 
             this.txtNumero.Location = new System.Drawing.Point(97, 133);
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(203, 26);
-            this.txtNumero.TabIndex = 7;
+            this.txtNumero.TabIndex = 10;
             // 
             // txtCEP
             // 
             this.txtCEP.Location = new System.Drawing.Point(97, 68);
             this.txtCEP.Name = "txtCEP";
             this.txtCEP.Size = new System.Drawing.Size(203, 26);
-            this.txtCEP.TabIndex = 5;
+            this.txtCEP.TabIndex = 7;
             // 
             // txtRua
             // 
             this.txtRua.Location = new System.Drawing.Point(97, 100);
             this.txtRua.Name = "txtRua";
             this.txtRua.Size = new System.Drawing.Size(203, 26);
-            this.txtRua.TabIndex = 6;
+            this.txtRua.TabIndex = 9;
             // 
             // lblCEP
             // 
@@ -451,7 +451,7 @@
             this.btnCadastrar.Location = new System.Drawing.Point(-3, 580);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(120, 47);
-            this.btnCadastrar.TabIndex = 11;
+            this.btnCadastrar.TabIndex = 14;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = false;
             this.btnCadastrar.Click += new System.EventHandler(this.BtnCadastrar_Click);

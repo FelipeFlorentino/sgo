@@ -229,8 +229,6 @@
             this.dgvEtapas.Location = new System.Drawing.Point(236, 82);
             this.dgvEtapas.MultiSelect = false;
             this.dgvEtapas.Name = "dgvEtapas";
-            this.dgvEtapas.RowHeadersVisible = false;
-            this.dgvEtapas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dgvEtapas.Size = new System.Drawing.Size(722, 262);
             this.dgvEtapas.TabIndex = 39;
             this.dgvEtapas.DoubleClick += new System.EventHandler(this.DgvEtapas_DoubleClick);
@@ -278,7 +276,7 @@
             this.lblFimPrevisto.AutoSize = true;
             this.lblFimPrevisto.Location = new System.Drawing.Point(4, 228);
             this.lblFimPrevisto.Name = "lblFimPrevisto";
-            this.lblFimPrevisto.Size = new System.Drawing.Size(165, 22);
+            this.lblFimPrevisto.Size = new System.Drawing.Size(166, 22);
             this.lblFimPrevisto.TabIndex = 8;
             this.lblFimPrevisto.Text = "Data de Fim Previsto:";
             // 
@@ -287,7 +285,7 @@
             this.lblInicioPrevisto.AutoSize = true;
             this.lblInicioPrevisto.Location = new System.Drawing.Point(2, 157);
             this.lblInicioPrevisto.Name = "lblInicioPrevisto";
-            this.lblInicioPrevisto.Size = new System.Drawing.Size(178, 22);
+            this.lblInicioPrevisto.Size = new System.Drawing.Size(179, 22);
             this.lblInicioPrevisto.TabIndex = 7;
             this.lblInicioPrevisto.Text = "Data de Início Previsto:";
             // 
@@ -303,7 +301,7 @@
             this.lblGastosPrevistos.AutoSize = true;
             this.lblGastosPrevistos.Location = new System.Drawing.Point(2, 85);
             this.lblGastosPrevistos.Name = "lblGastosPrevistos";
-            this.lblGastosPrevistos.Size = new System.Drawing.Size(193, 22);
+            this.lblGastosPrevistos.Size = new System.Drawing.Size(196, 22);
             this.lblGastosPrevistos.TabIndex = 3;
             this.lblGastosPrevistos.Text = "Total de Gastos Previstos:";
             // 

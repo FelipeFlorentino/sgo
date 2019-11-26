@@ -109,8 +109,6 @@
             this.dgvFuncionarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvFuncionarios.Location = new System.Drawing.Point(0, 91);
             this.dgvFuncionarios.Name = "dgvFuncionarios";
-            this.dgvFuncionarios.RowHeadersVisible = false;
-            this.dgvFuncionarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvFuncionarios.Size = new System.Drawing.Size(809, 482);
             this.dgvFuncionarios.TabIndex = 13;
             this.dgvFuncionarios.DoubleClick += new System.EventHandler(this.dgvFuncionarios_DoubleClick);

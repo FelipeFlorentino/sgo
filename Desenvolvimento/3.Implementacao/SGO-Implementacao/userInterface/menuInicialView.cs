@@ -22,12 +22,14 @@ namespace sgo.userInterface
         {
             this.Close();
             nf = new Thread(clienteForm);
+            nf.SetApartmentState(ApartmentState.STA);
             nf.Start();
         }
         private void BtnGerenciarObra_Click(object sender, EventArgs e)
         {
             this.Close();
             nf = new Thread(obraForm);
+            nf.SetApartmentState(ApartmentState.STA);
             nf.Start();
         }
         private void BtnNovaObra_Click(object sender, EventArgs e)

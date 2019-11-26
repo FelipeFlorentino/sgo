@@ -28,7 +28,6 @@ namespace sgo.userInterface
             this.cmbGrafico.Items.Add("Gastos por Tipo");
             this.cmbGrafico.Items.Add("Gastos por Mês");
             this.cmbGrafico.Items.Add("Gastos Estimados x Gastos Reais");
-            this.cmbGrafico.Items.Add("Planejamento Estimado x Planejamento Real");
         }
         private void BtnGerar_Click(object sender, EventArgs e)
         {
@@ -126,10 +125,6 @@ namespace sgo.userInterface
                         this.chGrafico.Series[0].Points.Add(new DataPoint
                         {
                             YValues = new double[] { (Convert.ToInt32(tabela.Rows[i][0])) },
-                        });
-                        this.chGrafico.Series[0].Points.Add(new DataPoint
-                        {
-                            YValues = new double[] { (Convert.ToInt32(tabela.Rows[i][1])) },
                         });
                     }
                 }

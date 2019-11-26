@@ -161,6 +161,7 @@ namespace sgo.userInterface
         {
             this.dgvEtapas.Columns[0].Visible = false;
             this.dgvEtapas.Columns[1].HeaderText = "Nome";
+            this.dgvEtapas.Columns[2].ValueType = typeof(Double);
             this.dgvEtapas.Columns[2].HeaderText = "Total de Gastos Previstos";
             this.dgvEtapas.Columns[3].HeaderText = "Data Início Previsto";
             this.dgvEtapas.Columns[4].HeaderText = "Data Fim Previsto";

@@ -91,5 +91,146 @@ UCS003: Manter Obras
 
 UCS004: Manter Funcionários
 
+	Funcionário 1:
+		CPF: 111.222.333-44
+		Nome: Claudemir
+		Email: claudemir@gmail.com
+		Celular: (11) 92727-1818
+		Salário: 2000
+		Função: PEDREIRO
+		CEP: 13327373
+		Rua: Rua Santa Clara
+		Número: 186
+		Bairro: Jardim Nova Era
+		Cidade: Salto
+		Estado: SP
+		
+	Funcionário 2:
+		CPF: 222.555.666-34
+		Nome: Murilo
+		Email: murilo@gmail.com
+		Celular: (11) 92817-2812
+		Salário: 1500
+		Função: SERVENTE
+		CEP: 13327371
+		Rua: Rua Santa Luzia
+		Número: 11
+		Bairro: Jardim Nova Era
+		Cidade: Salto
+		Estado: SP
+		
+	Funcionário 3:
+		CPF: 222.555.666-34
+		Nome: Gabriel
+		Email: gabriel@gmail.com
+		Celular: (11) 92349-7161
+		Salário: 2000
+		Função: ENGENHEIRO
+		CEP: 13327372
+		Rua: Rua Santa Mônica
+		Número: 10
+		Bairro: Jardim Nova Era
+		Cidade: Salto
+		Estado: SP
+		
+	Alteração 1:
+		CPF: 111.222.333-44
+		Nome: Claudemir
+		Email: claudemir2015@gmail.com
+		Celular: (11) 92727-2020
+		Salário: 2500
+		Função: PEDREIRO
+		CEP: 13327373
+		Rua: Rua Santa Clara
+		Número: 186
+		Bairro: Jardim Nova Era
+		Cidade: Salto
+		Estado: SP
+		
+	Alteração 2:
+		CPF: 222.555.666-34
+		Nome: Murilo
+		Email: murilo@gmail.com
+		Celular: (11) 92817-2812
+		Salário: 1500
+		Função: SERVENTE
+		CEP: 
+		Rua: Rua Santa Luzia
+		Número: 11
+		Bairro: Jardim Nova Era
+		Cidade: Salto
+		Estado: SP
 
 UCS005: Gerenciar Etapas
+	
+	Etapa 1:
+		Nome: Serviços Iniciais
+		Total de Gastos Previstos: 6000
+		Data de Início Previsto: 01/01/2019
+		Data de Fim Previsto: 31/01/2019
+	
+	Etapa 2:
+		Nome: Estrutura
+		Total de Gastos Previstos: 4000
+		Data de Início Previsto: 01/02/2019
+		Data de Fim Previsto: 28/02/2019
+	
+	Etapa 3:
+		Nome: Paredes
+		Total de Gastos Previstos: 2000
+		Data de Início Previsto: 01/03/2019
+		Data de Fim Previsto: 31/03/2019
+		
+	Gasto 1 - (Etapa 1):
+		Descrição: Folha de Pagamento
+		Tipo: Mão de Obra
+		Valor: 5000
+		Data: 20/01/2019
+
+	Gasto 2 - (Etapa 1):
+		Descrição: Martelo
+		Tipo: Ferramenta
+		Valor: 200
+		Data: 10/01/2019
+		
+	Gasto 3 - (Etapa 1):
+		Descrição: Cimento
+		Tipo: Material
+		Valor: 200
+		Data: 10/01/2019
+	
+	Gasto 1 - (Etapa 2):
+		Descrição: Folha de Pagamento
+		Tipo: Mão de Obra
+		Valor: 2000
+		Data: 20/02/2019
+
+	Gasto 2 - (Etapa 2):
+		Descrição: Martelo
+		Tipo: Ferramenta
+		Valor: 400
+		Data: 10/02/2019
+		
+	Gasto 3 - (Etapa 2):
+		Descrição: Cimento
+		Tipo: Material
+		Valor: 400
+		Data: 10/02/2019
+		
+	Gasto 1 - (Etapa 3):
+		Descrição: Folha de Pagamento
+		Tipo: Mão de Obra
+		Valor: 1000
+		Data: 20/03/2019
+
+	Gasto 2 - (Etapa 3):
+		Descrição: Martelo
+		Tipo: Ferramenta
+		Valor: 400
+		Data: 10/03/2019
+		
+	Gasto 3 - (Etapa 3):
+		Descrição: Cimento
+		Tipo: Material
+		Valor: 400
+		Data: 10/03/2019

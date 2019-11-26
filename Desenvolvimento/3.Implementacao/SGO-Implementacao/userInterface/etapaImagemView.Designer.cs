@@ -164,9 +164,7 @@
             this.dgvImagem.Location = new System.Drawing.Point(207, 264);
             this.dgvImagem.MultiSelect = false;
             this.dgvImagem.Name = "dgvImagem";
-            this.dgvImagem.RowHeadersVisible = false;
             this.dgvImagem.RowHeadersWidth = 40;
-            this.dgvImagem.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvImagem.Size = new System.Drawing.Size(593, 374);
             this.dgvImagem.TabIndex = 13;
             // 
