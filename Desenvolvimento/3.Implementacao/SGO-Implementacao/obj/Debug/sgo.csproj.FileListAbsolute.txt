@@ -255,3 +255,7 @@ C:\Users\aluno\Desktop\sgo-master\Desenvolvimento\3.Implementacao\SGO-Implementa
 C:\Users\aluno\Desktop\sgo-master\Desenvolvimento\3.Implementacao\SGO-Implementacao\obj\Debug\sgo.csproj.CopyComplete
 C:\Users\aluno\Desktop\sgo-master\Desenvolvimento\3.Implementacao\SGO-Implementacao\obj\Debug\sgo.exe
 C:\Users\aluno\Desktop\sgo-master\Desenvolvimento\3.Implementacao\SGO-Implementacao\obj\Debug\sgo.pdb
+C:\Users\Felip\OneDrive\Documentos\sgo\Desenvolvimento\3.Implementacao\SGO-Implementacao\bin\Debug\sgo.exe.manifest
+C:\Users\Felip\OneDrive\Documentos\sgo\Desenvolvimento\3.Implementacao\SGO-Implementacao\bin\Debug\sgo.application
+C:\Users\Felip\OneDrive\Documentos\sgo\Desenvolvimento\3.Implementacao\SGO-Implementacao\obj\Debug\sgo.exe.manifest
+C:\Users\Felip\OneDrive\Documentos\sgo\Desenvolvimento\3.Implementacao\SGO-Implementacao\obj\Debug\sgo.application
